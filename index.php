@@ -59,8 +59,9 @@
 					<td><?php echo $item["price"] ?></td>
 					<td><img src="img\<?php echo $item["image"] ?> "width="144" height="142"/> </td>
 					<td><?php echo $item["details"] ?></td>
-					<td> <a href="#"><button type="button" class="btn btn-success">Edit</button></a> &nbsp; | &nbsp; 
-					<a href="#" onClick="return confirm {'Are you sure to delete?');">
+					<td> <a href="#"><button type="button" class="btn btn-success">Update</button></a> &nbsp; | &nbsp; 
+					<a href="delete.php?=<?= $item["code"] ?>"
+					onClick="return confirm ('Are you sure to delete?');">
 					<button type="button" class="btn btn-danger">Delete</button></a> </td>
 				</tr>
 				<?php } ?>

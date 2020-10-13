@@ -78,13 +78,13 @@
 					$this->msg = "Unable to connect PostgreSQL server.";
 					return $success;
 				}	
-				
+				//delete data
 				$query= 'delete from "Products" where code=$1';
 				$params= array(&$code);
 				$res= pg_query_params($conn,$query,$params);
 				if($res === false)
 				{
-					$this->msg = "Eerror in executing query.";
+					$this->msg = "Error in executing query.";
 					return $success;
 				}
 				$num_rows=pg_affected_rows($res);

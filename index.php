@@ -57,7 +57,7 @@
 					<td><?php echo $item["code"] ?></td>
 					<td><?php echo $item["name"] ?></td>
 					<td><?php echo $item["price"] ?></td>
-					<td><img src="img\<?php echo $item["image"] ?> "width="144" height="142"/> </td>
+					<td><img src="img\<?php echo $item["image"] ?> "width="144" height="108"/> </td>
 					<td><?php echo $item["details"] ?></td>
 					<td> <a href="#"><button type="button" class="btn btn-success">Update</button></a> &nbsp; | &nbsp; 
 					<a href="delete.php?=<?= $item["code"] ?>"

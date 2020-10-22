@@ -113,7 +113,7 @@
 					return $success;
 				}
 				//update data
-				$query = 'update "Products" set code=$1, name=$2, price=$3, image=$4, details=$5 where code=$1';
+				$query = 'update "Products" set name=$2, price=$3, image=$4, details=$5 where code=$1';
 				$params = array(&$code,&$name,&$price,&$image,&$details);
 				$res = pg_query_params($conn,$query,$params);
 				if($res === FALSE)

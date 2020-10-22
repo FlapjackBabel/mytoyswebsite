@@ -66,6 +66,7 @@
 				$success = -1;
 			}
 		}
+		
 		public function deleteProduct($code)
 		{
 			$success= -1;
@@ -97,6 +98,40 @@
 				$this->msg = $e->getMessage();
 				$success= -1;
 			}
+		}
+		
+		public function updateProduct($code,$name,$price,$image,$details)
+		{
+			$success = -1;
+			try 
+			{
+				global $connString;
+				$conn = pg_connect($connString);
+				if( $conn === false)
+				{
+					$this->msg = "Unable to connect PostgreSQL server.";
+					return $success;
+				}
+				//update data
+				$query = 'update "Products" set name=$2, price=$3, image=$4, details=$5 where code=$1';
+				$params = array(&$code,&$name,&$price,&$image,&$details);
+				$res = pg_query_params($conn,$query,$params);
+				if($res === FALSE)
+				{
+					$this->msg = "Error in executing query.";
+					return $success;
+				}
+				$row = pg_fetch_row($res);
+				$success = $num_rows;
+				$this->msg = "";
+				pg_close($conn);
+			} 
+			catch (Exception $e)
+			{
+				$this->msg = $e->getMessage();
+				$success = -1;
+			}
+			return $success;
 		}
 		
 	}

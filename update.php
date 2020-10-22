@@ -37,10 +37,6 @@
   <h2>Update plushie</h2>
   <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST">
     <div class="form-group">
-      <label for="code">Product code:</label>
-      <input type="text" class="form-control" id="code" placeholder="Enter code" name="code">
-    </div>
-    <div class="form-group">
       <label for="code">Product name:</label>
       <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
     </div>

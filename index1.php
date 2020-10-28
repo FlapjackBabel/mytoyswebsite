@@ -64,8 +64,8 @@
         <!-- article 1 -->
         <article class="two_quarter">
           <h2>About</h2>
-          <p>A toy shop</p>
-          <p>Motto</p>
+          <p>Contact: 09xxxxxxx</p>
+          <p>Address: District X, Ho Chi Minh City</p>
         </article>
         <!-- article 2 -->
 		

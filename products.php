@@ -52,12 +52,6 @@
     <!-- main content -->
     <div id="intro">
       <section class="clear">
-        <!-- article 1 -->
-        <article class="two_quarter">
-          <h2>About</h2>
-          <p>A toy shop</p>
-          <p>Motto</p>
-        </article>
         <!-- article 2 -->
 		
 		 
@@ -71,7 +65,6 @@
 				<?php } ?>
 				<?php } ?>
             </ul>
-            <figcaption><a href="#">View Our Products Here &raquo;</a></figcaption>
           </figure>
         </article>
 		

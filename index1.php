@@ -75,7 +75,7 @@
 			<ul class="clear">
 				<?php foreach($list as $item) { ?>
 				
-					<li><a href="#"><img src="images\<?php echo $item["image"] ?> "width="144" height="144"/></a></li>
+					<li class="last"><a href="#"><img src="images\<?php echo $item["image"] ?> "width="144" height="144"/></a></li>
 					
 				<?php } ?>
 				<?php } ?>

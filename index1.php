@@ -41,7 +41,7 @@
     <nav>
       <ul>
         <li><a href="#">Main Page</a></li>
-        <li class="last"><a href="#">Products</a></li>
+        <li class="last"><a href="products.php">Products</a></li>
       </ul>
     </nav>
   </header>

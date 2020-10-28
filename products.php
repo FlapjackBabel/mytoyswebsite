@@ -54,7 +54,7 @@
 		
 			<?php foreach($list as $item) { ?>	
 			
-		  <figure><img src="img\<?php echo $item["image"] ?> "width="144" height="144"/>
+		  <figure><img src="img\<?php echo $item["image"] ?>/>
 		  
 			<?php } ?>
 			<?php } ?>

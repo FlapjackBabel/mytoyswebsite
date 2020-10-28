@@ -56,13 +56,12 @@
 			
 		  <figure><img src="img\<?php echo $item["image"] ?> "width="144" height="144"/>
 		  
-			<?php } ?>
-			<?php } ?>
-		  
 			<figcaption>
 			  <h2>Introduction</h2>			
 			</figcaption>
 		  </figure>
+			<?php } ?>
+			<?php } ?>
 		</section>
     <!-- main content -->
     <div id="intro">

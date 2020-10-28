@@ -57,7 +57,7 @@
 		  <figure><img src="img\<?php echo $item["image"] ?> "width="144" height="144"/>
 		  
 			<figcaption>
-			  <h2>Introduction</h2>			
+			  <h2>Products:<?php echo $item["name"] ?></h2>			
 			</figcaption>
 		  </figure>
 			<?php } ?>

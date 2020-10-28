@@ -80,7 +80,7 @@
 				<?php } ?>
 				<?php } ?>
             </ul>
-            <figcaption><a href="#">View Our Products Here &raquo;</a></figcaption>
+            <figcaption><a href="products.php">View Our Products Here &raquo;</a></figcaption>
           </figure>
         </article>
 		

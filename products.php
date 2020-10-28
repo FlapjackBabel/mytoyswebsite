@@ -40,7 +40,7 @@
     
     <nav>
       <ul>
-        <li><a href="#">Main Page</a></li>
+        <li><a href="index1.php">Main Page</a></li>
         <li class="last"><a href="#">Products</a></li>
       </ul>
     </nav>
